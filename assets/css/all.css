@@ -16,7 +16,7 @@ BODY {
 
 a.standout:hover {
   color: #0D0F25 !important;
-  border-bottom: 3px solid #FFC700 !important;
+  border-bottom: 3px solid #45c7f0 !important;
   text-decoration:none !important;
 }
 
@@ -28,7 +28,15 @@ a.standout:active, a.standout:link, a.standout:visited {
 
 
 .highlight {
-    color:#FFC700;
+    color:#45c7f0;
+}
+
+
+.background {
+    background-image:url("assets/img/background.png");
+    background-size: contain;
+    background-position:bottom right;
+    background-repeat: no-repeat
 }
 
 #contractCopy {
@@ -52,12 +60,20 @@ H3, H4, H5, H6 {
     
 }
 
+.h-standout {
+	color:#45c7f0;
+}
+
 .icon{
 	color:#45c7f0;
 }
 
 .social {
 	color:#b054a0;
+}
+
+.social:hover {
+	color:#45c7f0;
 }
 
 .btn-primary {
@@ -76,13 +92,6 @@ H3, H4, H5, H6 {
     border: solid 2px #b054a0; /*set the color you want here*/
     text-shadow: 0px 0px rgba(0,0,0,0.75) ;
 }     
-
-.main-card {
-    background-image: url("assets/img/harmony_rocket.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
 
 .icon-main-card {
     height:50px;
