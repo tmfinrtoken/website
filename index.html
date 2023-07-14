@@ -4,7 +4,7 @@
     
 <head>
     <!-- favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/fav-icon@300x.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/fav-icon/fav-icon@300x.png">
     
     <!-- twitter card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -12,7 +12,7 @@
     <meta name="twitter:creator" content="@TMFINR_WTF">
     <meta name="twitter:title" content="$TMFINR ERC-20 Token">
     <meta name="twitter:description" content="$TMFINR token was fairly launched. All tokens have been minted and liquidity has been locked. There was no pre-sale, ICO, or any pre-distribution.">
-    <meta name="twitter:image" content="https://www.tmfinr.wtf/assets/img/twitter-card@300x.png">        
+    <meta name="twitter:image" content="https://www.tmfinr.wtf/assets/img/twitter-card/twitter-card@300x.png">        
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -28,36 +28,51 @@
     
 <body>
 	
-	<div class="container pt-5 background">
-		<div class="row">
-			<div class="col d-flex justify-content-center">
-				<img src="assets/img/website-logo@300x.png" class="w-50" alt="$TMFINR">
+	
+	<div class="container-fluid background">
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col d-flex justify-content-center">
+					<img src="assets/img/website-logo@300x.png" class="w-50" alt="$TMFINR">
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-12 d-flex justify-content-center mb-5 text-center">
+					<!-- buttons -->
+					<div class="d-grid gap-1">
+						<!-- uniswap -->
+						<a href="https://app.uniswap.org/#/tokens/ethereum/0xbacdf475718d0026fe98fccc960435b6aafe1cda" class="btn  btn-primary rounded-1 text-nowrap m-1" tabindex="-1" role="button" aria-disabled="true" target="_blank"><span class="me-3 ms-3">BUY ON UNISWAP</span></a>
+						<!-- dextools -->
+						<a href="https://www.dextools.io/app/en/ether/pair-explorer/0xe7e23103c95944a2921fb987ae26f798f1955083" class="btn btn-primary rounded-1 text-nowrap m-1" tabindex="-1" role="button" aria-disabled="true" target="_blank"><span class="me-3 ms-3 text-uppercase">VIEW ON DEXTOOLS</span></a>
+					</div>
+				</div>
 			</div>
 		</div>
-		
 	</div>
     
     <div class="container-fluid bg-white mt-5">
         <div class="container pb-5">
-			
 			<div class="row pt-5 pb-5">
 				<div class="col d-flex justify-content-center">
 					<h3 class="text-uppercase">If you're looking for a <span class="h-standout">white paper</span>...that mother fucker is not real!</h3>
 				</div>
 			</div>
-			
             <div class="row g-5">
-				
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <i class="fa-solid fa-file-lines fa-2x mb-2 icon"></i>
                     <h3 class="text-uppercase">Contract Address</h3>
-                    <span id="copy">Contract address will be available around 3:00PM EST on July 14th, 2023!</span>
+                    <span id="copy">0xBacdf475718D0026FE98fccc960435b6AAFe1CDa</span>
+                    <ul class="mt-2">
+                        <li class="mb-2"><a onclick="copyToClipboard('copy')" href="#copy" tabindex="-1" role="button" class="standout">Copy to Clipboard</a></li>
+                        <li><a href="https://etherscan.io/address/https://etherscan.io/address/0xBacdf475718D0026FE98fccc960435b6AAFe1CDa" target="_blank" class="standout">View on Etherscan</a></li>
+                    </ul>
                 </div>
 				
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <i class="fa-solid fa-coins fa-2x mb-2 icon"></i>
                     <h3 class="text-uppercase">Token Supply</h3>
-                    <span>Only 1,000,000,000 $TMFINR will ever exist.</span>
+                    <span>Only 1,000,000 $TMFINR will ever exist.</span>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <i class="fa-solid fa-lock fa-2x mb-2 icon"></i>
@@ -66,40 +81,38 @@
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <i class="fa-solid fa-percent fa-2x mb-2 icon"></i>
-                    <h3 class="text-uppercase">Buy / Sell Tax</h3>
-                    <p>1% buy. 1% sell. Tokens will be designated for marketing and listings.</p>
+                    <h3 class="text-uppercase">1% Buy Tax &amp; 1% Sell Tax</h3>
+                    <p>Tokens will be designated for marketing and listings.</p>
                 </div>
             </div>
         </div>
     </div>
 	
-    <div class="container p-5 footer">
-        <div class="row g-2">
-			
-            <div class="col d-flex flex-row justify-content-center">
+	<div class="container-fluid footer">
+		<div class="container p-5">
+			<div class="row g-2">
 
-				<!-- twitter -->    
-				<a href="https://twitter.com/TMFINR_WTF" target="_blank"><i class="fa-brands fa-twitter fa-2x me-4 social"></i></a>
-				
-				<!-- telegram -->      
-				<a href="https://t.me/TMFINR77" target="_blank"><i class="fa-brands fa-telegram fa-2x social"></i></a>
-		    
-				<!-- discord      
-				<a href="https://discord.gg/fChMhYGU" target="_blank"><i class="fa-brands fa-discord fa-2x social"></i></a>--> 
-				
+				<div class="col d-flex flex-row justify-content-center">
+
+					<!-- twitter -->    
+					<a href="https://t.me/TMFINR77" target="_blank"><i class="fa-brands fa-twitter fa-2x me-4 social"></i></a>
+
+					<!-- telegram -->      
+					<a href="https://t.me/+YgnRlI4_agg3OGIx" target="_blank"><i class="fa-brands fa-telegram fa-2x me-4 social"></i></a>
+
+				</div>
 
 			</div>
 
-		</div>
-		
-        <div class="row g-2 mt-3">
-			<div class="col d-flex flex-row justify-content-center text-white">
-				<!-- copyright -->
-				&copy; 2023, That mother fucker is not real!
+			<div class="row g-2 mt-3">
+				<div class="col d-flex flex-row justify-content-center text-white">
+					<!-- copyright -->
+					&copy; 2023, That mother fucker is not real!
+				</div>
 			</div>
-		</div>
-		
-    </div>	
+
+		</div>	
+	</div>
     
     <!-- click to copy -->
     <script src="assets/js/contract-copy.js"></script>                
